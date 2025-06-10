@@ -1,0 +1,266 @@
+
+body{
+margin:0;
+background-color: rgba(243, 245, 246, 0.794);
+height: 100%;
+width:100%;
+}
+.logo{
+  margin-left:50px;
+  margin-top:23px;
+  margin-bottom:0;
+  color:orangered;
+  font-size:38px;
+  font-weight:500;
+}
+/* start first div */
+.a1{
+   width:1520px;
+   height:90px;
+   background-color:white;
+   position:fixed;
+   box-shadow: 0px 1px 2px rgb(240 ,240 ,240);
+   z-index: 3;
+  }
+ .b1{
+   width:40%;
+  float:left;
+  display:inline;
+ 
+  }
+  .button:hover {
+	  background-color: transparent;
+  }
+ .b2{
+   width:60%;
+   float:left;
+   padding-top:10px;
+  }
+ .menu{
+   padding-left:45px;
+   margin:0;
+   display:flex;
+   font-size:20px;
+  }
+  .b2 h4 a{
+   text-decoration:none;
+   color:orangered;
+   display:inline;
+   float:left;
+   margin-right:15px ;
+  }
+  .b2 h4 a:hover{
+   color:black;
+  }
+  .b2 h4 a:active{
+   text-decoration:none;
+   color:orangered;
+  }
+  h4{
+    margin-bottom:20px;
+  }  
+    
+.navbar {
+  overflow: hidden;
+}
+
+h4 a:hover{
+  color: orangered;
+}
+.navbar a {
+float: left;
+font-size: 16px;
+color: orangered;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.dropdown {
+float: left;
+overflow: hidden;
+}
+
+.dropdown .dropbtn {
+font-size: 16px;  
+color: orangered;
+padding: 14px 16px;
+/* font-family: inherit; */
+margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+background-color: white;
+color: orangered;
+}
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: rgba(255, 255, 255, 0.425);
+backdrop-filter: blur(5px);
+min-width: 100px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+float: none;
+color: orangered;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+.dropdown-content a:hover {
+background-color: orangered;
+color:white;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+
+  /*end first div*/
+   /*start second div*/
+  .a2{
+    height:600px;
+	width:1520px;
+	padding-top:90px;
+  }
+  .c1{
+  height:290px;
+  width:100%;
+  position:absolute;
+  z-index:-1;
+  filter: brightness(60%);
+  }
+  .c2{
+  height:115px;
+  width:270px;
+  margin-top:190px;
+  }
+  .c2 h1{
+  font-size:60px;
+  color:white;
+  }
+  .c2 h3{
+    color:white;
+  }
+/*end second div*/
+
+
+/* start third div */
+.a3{
+  height: 850px;
+  width: 1520px;
+}
+.a3 h2{
+  font-weight: 500;
+}
+.a3 h6{
+  color: orangered;
+}
+.part1{
+  width:100%;
+  margin-top: 100px;
+  background-color: rgba(243, 245, 246, 0.794);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.part2{
+  width:100%;
+  margin-top: 10px;
+  background-color: rgba(243, 245, 246, 0.794);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.part3{
+  width:100%;
+  margin-top: 10px;
+  background-color: rgba(243, 245, 246, 0.794);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.part4{
+  width:100%;
+  margin-top: 10px;
+  background-color: rgba(243, 245, 246, 0.794);
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.box{
+  width:300px;
+  margin: 0 10px;
+  transition: 0.3s;
+}
+
+.box img{
+  display: block;
+  border-radius: 5%;
+}
+.box:hover{
+ transform:scale(1.2);
+ z-index:2;
+}
+
+/* end third div */
+
+
+
+ /*start seventh div coding css*/
+ .a7{
+    height:300px;
+    width:1520px;
+    background-color: black;
+    color:white;
+    display: flex;
+    justify-content:center;
+   }
+   .a7 h3{
+    font-weight: 100;
+    margin: 10px 0 30px 0 ;
+   }
+   .a7 h5{
+    font-weight: 100;
+    font-size: 12px;
+    margin:0;
+    margin-top: 11px;
+    color:rgb(154, 159, 163);
+   }
+   .h1{
+    height: 75%;
+    width: 300px;
+    display: inline-block;
+    position: relative;
+    margin-right:75px;
+    padding-top:45px;
+   }
+   .h2{
+    height: 75%;
+    width: 150px;
+    display: inline-block;
+    position: relative;
+    padding-top:45px;
+  }
+   .h3{
+    height: 75%;
+    width: 150px;
+    display: inline-block;
+    position: relative;
+    padding-top:45px;
+  }
+   .h4{
+    height: 75%;
+    width: 150px;
+    display: inline-block;
+    position: relative;
+    padding-top:45px;
+  }
+   /* end seventh div codind css */

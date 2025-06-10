@@ -1,0 +1,407 @@
+body{
+margin:0;
+height: 100%;
+width: 100%;
+}
+.logo{
+  margin-left:50px;
+  margin-top:23px;
+  margin-bottom:0;
+  color:black;
+  font-size:38px;
+  font-weight:500;
+}
+  .info{
+    height:600px;
+	width:1530px;
+	padding-top:90px;
+  }
+  .front1{
+    height: 600px;
+    width: 1530px;
+    position:absolute;
+    z-index: -1;
+    filter: brightness(60%);
+  }
+  .front2{
+    height: 50px;
+    width: 1530px;
+    margin-top: 190px;
+    
+}
+/* start first div */
+ .a1{
+   width:1530px;
+   height:90px;
+   background-color:white;
+   position:fixed;
+   box-shadow: 0px 1px 2px rgb(240 ,240 ,240);
+  }
+ .b1{
+   width:40%;
+  float:left;
+  display:inline;
+ 
+  }
+  .button:hover {
+	  background-color: transparent;
+  }
+ .b2{
+   width:60%;
+   float:left;
+   padding-top:10px;
+  }
+ .menu{
+   padding-left:45px;
+   margin:0;
+   display:flex;
+   font-size:20px;
+  }
+  .b2 h4 a{
+   text-decoration:none;
+   color: orangered;
+   display:inline;
+   float:left;
+   margin-right:15px ;
+  }
+  .b2 h4 a:hover{
+   color:black;
+  }
+  .b2 h4 a:active{
+   text-decoration:none;
+   color:orangered;
+  }
+  h4{
+    margin-bottom:20px;
+  } 
+     
+.navbar {
+  overflow: hidden;
+}
+
+h4 a:hover{
+  color: orangered;
+}
+.navbar a {
+float: left;
+font-size: 16px;
+color: orangered;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.dropdown {
+float: left;
+overflow: hidden;
+}
+
+.dropdown .dropbtn {
+font-size: 16px;  
+color: orangered;
+padding: 14px 16px;
+margin: 0;
+}
+
+
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: rgba(255, 255, 255, 0.477);
+backdrop-filter: blur(5px);
+min-width: 100px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+float: none;
+color: orangered;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+.dropdown-content a:hover {
+background-color: orangered;
+color:white;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+/* end first div */
+
+ .aa1{
+   height:auto;
+   width:1530px;
+   padding-top:170px;
+  
+ }
+ .aa1 h1{
+ font-weight:200;
+ }
+.aa1 a{
+ color:black;
+ text-decoration-color:orangered;
+ 
+}
+.aa1 a:hover{
+ color:orangered;
+}
+.aa1 p{
+color:dimgray;
+font-size:15px;
+}
+
+
+ /*start second div*/
+.a2{
+  height:510px;
+  width:100%;
+  padding-top:105px;
+}
+
+.a2 h5{
+  width:10px;
+  border: 1px solid rgba(0, 0, 0, 0.411);
+  border-radius: 25%;
+  margin: 0;
+  padding: 0;
+  margin-top:30px;
+  background-color: orangered;
+  color:white;
+  font-weight: 100;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.c1{
+height:510px;
+width:50%;
+}
+.c1 h1{
+  font-size:46px;
+  width:500px;
+  margin:0;
+}
+.c1 p{
+  width:500px;
+  font-size: 18px;
+}
+.a2 .c1 a{
+  font-size: 19px;
+}
+.c2{
+height:510px;
+width:50%;
+}
+.c2 img{
+  border-radius: 2%;
+  margin: 35px 0 0 190px;
+}
+/*end second div*/
+
+
+ /*start third div*/
+.a3{
+  height:570px;
+  width:100%;
+  border-top: 2px solid rgb(239, 237, 237);
+}
+.a3 h5{
+  width:10px;
+  border: 1px solid rgba(0, 0, 0, 0.411);
+  border-radius: 25%;
+  margin: 0;
+  padding: 0;
+  margin-left:190px;
+  background-color: orangered;
+  color:white;
+  font-weight: 100;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.d1{
+height:490px;
+width:50%;
+margin-top:80px;
+}
+.d2 h1{
+  width:500px;
+  font-size: 43px;
+  margin:0 0 0 190px;
+}
+.d2 p{
+  width:500px;
+  margin:15px 0 15px 190px;
+  font-size: 18px;
+}
+.d2{
+height:490px;
+width:50%;
+margin-top:80px;
+
+}
+.d1 img{
+  border-radius: 2%;
+}
+.a3 .d2 a{
+  font-size: 19px;
+}
+/*end third div*/
+
+
+ /*start fourth div*/
+ .a4{  
+  height:510px;
+  width:1530px;
+  border-top: 2px solid rgb(239, 237, 237);
+  }
+  
+.a4 h5{
+  width:10px;
+  border: 1px solid rgba(0, 0, 0, 0.411);
+  border-radius: 25%;
+  margin: 0;
+  padding: 0;
+  margin-top:30px;
+  background-color: orangered;
+  color:white;
+  font-weight: 100;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+  .e1{
+  height:510px;
+  width:50%;
+  margin-top: 80px;
+  }
+  .e1 img{
+    border-radius: 2%;
+    margin: 35px 0 0 190px; 
+  }
+  .e2{
+  height:510px;
+  width:50%;
+  margin-top: 80px;
+  }
+  .e2 h1{
+    margin-top:0;
+    font-size:46px;
+    width:500px;
+    margin-bottom:0;
+  }
+  .e2 p{
+    width:500px;
+    font-size: 18px;
+  }
+  .e2 h3{
+    color:white;
+  }
+
+  .a4 .e2 a{
+    font-size: 19px;
+  }
+/*end fourth div*/
+
+
+ /*start fifth div*/
+.a5{
+  height:510px;
+  width:1530px;
+  display: inline-block; 
+  border-top: 2px solid rgb(239, 237, 237); 
+}
+
+.a5 h5{
+  width:10px;
+  border: 1px solid rgba(0, 0, 0, 0.411);
+  border-radius: 25%;
+  margin: 0;
+  padding: 0;
+  margin-left:190px;
+  background-color: orangered;
+  color:white;
+  font-weight: 100;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.f1{
+height:490px;
+width:50%;
+margin-top: 80px;
+}
+
+.f1 img{
+    border-radius: 2%;
+  }
+.f2{
+height:490px;
+width:50%;
+margin-top: 80px;
+}
+.f2 h1{
+    width:500px;
+    font-size: 43px;
+    margin:0 0 0 190px;
+  }
+.f2 p{
+   width:500px;
+   margin:15px 0 15px 190px;
+   font-size: 18px;
+}
+.a5 .f2 a{
+  font-size: 19px;
+}
+/*end fifth div*/
+
+
+ /*start seventh div coding css*/
+ .a7{
+  height:300px;
+  width:1530px;
+  background-color: black;
+  color:white;
+  display: flex;
+  justify-content:center;
+ }
+ .a7 h3{
+  font-weight: 100;
+  margin: 10px 0 30px 0 ;
+ }
+ .a7 h5{
+  font-weight: 100;
+  font-size: 12px;
+  margin:0;
+  margin-top: 11px;
+  color:rgb(154, 159, 163);
+ }
+ .h1{
+  height: 75%;
+  width: 300px;
+  display: inline-block;
+  position: relative;
+  margin-right:75px;
+  padding-top:45px;
+ }
+
+ .h2{
+  height: 75%;
+  width: 150px;
+  display: inline-block;
+  position: relative;
+  padding-top:45px;
+}
+ .h3{
+  height: 75%;
+  width: 150px;
+  display: inline-block;
+  position: relative;
+  padding-top:45px;
+}
+ .h4{
+  height: 75%;
+  width: 150px;
+  display: inline-block;
+  position: relative;
+  padding-top:45px;
+}
+ /* end seventh div codind css */

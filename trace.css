@@ -1,0 +1,830 @@
+ html,body {
+   margin: 0px;
+   height: 100%;
+   width:100%;
+ }
+#Boss{
+  height: auto;
+  width: 100%;
+}
+                                                       /*start first div coding css*/
+ .b1 .logo {
+   margin-left: 50px;
+   margin-top: 23px;
+   margin-bottom: 0;
+   color: black;
+   font-size: 1.98vw;
+   font-weight: 500;
+
+ }
+
+ .a1 {
+   width: 100vw;
+   height: 90px;
+   background-color: white;
+   box-shadow: 0px 0.3px 2px rgb(240, 240, 240);
+   margin-left: -55px;
+   position:fixed;
+   top: 0;
+   z-index: 2;
+  
+ }
+ .menu{
+  position:relative;
+  justify-content: center;
+ }
+
+ .b1 {
+   width: 40vw;
+   float: left;
+   display: inline;
+ }
+
+ .button:hover {
+   background-color: white;
+   color: orangered;
+ }
+
+ /* part2 code */
+ .b2 {
+   width: 60vw;
+   float: left;
+   padding-top: 10px;
+ }
+
+ .menu {
+   padding-left: 45px;
+   margin: 0;
+   display: flex;
+   font-size: 20px;
+ }
+
+ .menu{
+  color:orangered;
+ }
+
+ .b2 h4 a {
+   text-decoration: none;
+   color: orangered;
+   display: inline;
+   float: left;
+   margin-right: 15px;
+ }
+
+ .b2 h4 a:hover {
+   color: black;
+ }
+
+ .b2 h4 a:active {
+   text-decoration: none;
+   color: orangered;
+ }
+
+ h4 {
+   margin-bottom: 20px;
+ }
+   
+ .navbar {
+  overflow: hidden;
+}
+
+h4 a:hover{
+  color: orangered;
+}
+.navbar a {
+float: left;
+font-size: 16px;
+color: orangered;
+text-align: center;
+padding: 14px 16px;
+text-decoration: none;
+}
+
+.dropdown {
+float: left;
+overflow: hidden;
+}
+
+.dropdown .dropdown-content {
+  background-color: rgba(255, 255, 255, 0.372);
+backdrop-filter: blur(2px);
+}
+
+.dropdown .dropbtn {
+font-size: 16px;  
+color: orangered;
+padding: 14px 16px;
+margin: 0;
+}
+
+
+.dropdown-content {
+display: none;
+position: absolute;
+background-color: #f9f9f9;
+min-width: 100px;
+box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+z-index: 1;
+}
+
+.dropdown-content a {
+float: none;
+color: orangered;
+padding: 12px 16px;
+text-decoration: none;
+display: block;
+text-align: left;
+}
+
+.dropdown-content a:hover {
+background-color: orangered;
+color:white;
+}
+
+.dropdown:hover .dropdown-content {
+display: block;
+}
+                                                       /*end first div coding css*/
+
+                                                       /*start second div coding css*/
+
+ .a2 {
+   height: 1070px;
+   width: 100vw;
+ }
+/* part1 code  */
+ .c1 {
+   height: 700px;
+   width: 100vw;
+   z-index: -1;
+   position: absolute;
+   filter: brightness(60%);
+ }
+
+ .sign {
+   font-style: italic;
+ }
+/* part2 code  */
+ .c2 {
+   height: 70.22vh;
+   width: 40.26vw;
+   padding: 130 500 0 250;
+   overflow: hidden;
+
+ }
+
+ .c2 button a {
+   color: orangered;
+ }
+
+ .c2 #effect a:hover {
+   color: orangered;
+   background: none;
+ }
+
+ /* part3 code */
+ .c3 {
+   height:30px;
+   width: 100%;
+   text-align: center;
+   overflow: hidden;
+ }
+
+ .c3 h3 {
+   color: orangered;
+   margin-bottom: 0;
+   margin-top:0;
+   font-size: 20px;
+   font-weight: 500;
+   text-transform: uppercase;
+ }
+.ccc3{
+  margin-top: 4vw;
+}
+
+/* part4 code  */
+ .c4 {
+   text-align: center;
+   overflow: hidden;
+ }
+ .cccc4{
+  overflow: hidden;
+ }
+ .cccch4{
+  overflow:hidden;
+ }
+ .c4 h1 {
+   margin-top: 0;
+   font-size: 40px;
+   font-weight: 500;
+   overflow: hidden;
+ }
+ 
+ /* part5 code  */
+ .c5 {
+   text-align: center;
+ }
+
+ .c5 p {
+   margin-top: 0;
+   font-size: 18px;
+   color: dimgray;
+   font-family: Arial, Helvetica, sans-serif;
+ }
+
+ /* part6 code  */
+ .c6 {
+   text-align: center;
+ }
+
+ .c6 button a {
+   text-decoration: none;
+   color: black;
+
+ }
+
+ .c6 button {
+   border: none;
+   border-bottom: 3px solid orangered;
+   background-color: white;
+   font-size: 20px;
+   text-transform: capitalize;
+   font-family: none;
+ }
+
+ .c6 button a:hover {
+   color: orangered;
+ }
+
+                                                       /*end second div coding css*/
+
+                                                       /*start third div coding css*/
+ .a3 {
+   width: 100vw;
+   height: 83.33vh ;
+   background-color: ghostwhite;
+ }
+
+
+ #part1 {
+   height: 62.81vh;
+   width: 90vw;
+   overflow: hidden;
+ }
+/* d1 code  */
+ .d1 {
+   height: 42.07vh;
+   width: 25vw;
+   border: 1px solid #ddd;
+   padding: 20px;
+   margin: 10px;
+   margin-left: 40px;
+   margin-top: 70px;
+   border-radius: 10px;
+   background-color: white;
+   border: none;
+   display: inline;
+   float: left;
+   position: relative;
+ }
+
+ .d1 button a {
+   text-decoration: none;
+   color: black;
+   border: none;
+   font-size: 19px;
+   font-family: none;
+ }
+
+ .d1 button a:hover {
+   color: orangered;
+ }
+
+ .d1 button {
+   background-color: white;
+   border: none;
+   border-bottom: 2px solid orangered;
+   margin: 0;
+   padding: 0;
+ }
+
+ .d1 h2 a {
+   text-decoration: none;
+   color: black;
+   font-size: 2.2vw;
+   font-weight: 500;
+ }
+
+ .d1 h2 a:hover {
+   text-decoration: none;
+   color: orangered;
+   font-size: 2.2vw;
+   font-weight: 500;
+ }
+
+
+ /* d2 code  */
+ .d2 {
+   height: 42.07vh;
+   width: 25vw;
+   border: 1px solid #ddd;
+   padding: 20px;
+   margin: 10px;
+   margin-top: 70px;
+   border-radius: 10px;
+   background-color: white;
+   border: none;
+   display: inline;
+   float: left;
+   position: relative;
+ }
+
+ .d2 button a {
+   text-decoration: none;
+   color: black;
+   font-size: 19px;
+   font-family: none;
+ }
+
+ .d2 button a:hover {
+   color: orangered;
+ }
+
+ .d2 button {
+   background-color: white;
+   border: none;
+   border-bottom: 2px solid orangered;
+   margin: 0;
+   padding: 0;
+ }
+
+ .d2 h2 a:hover {
+   text-decoration: none;
+   color: orangered;
+   font-size: 2.2vw;
+   font-weight: 500;
+ }
+
+ .d2 h2 a {
+   text-decoration: none;
+   color: black;
+   font-size: 2.2vw;
+   font-weight: 500;
+ }
+
+ /* d3 code  */
+ .d3 {
+   height:42.07vh;
+   width: 25vw;
+   border: 1px solid #ddd;
+   padding: 20px;
+   margin: 10px;
+   margin-top: 70px;
+   border-radius: 10px;
+   background-color: white;
+   border: none;
+   display: inline;
+   float: left;
+   position: relative;
+ }
+
+ .d3 button a {
+   text-decoration: none;
+   color: black;
+   font-size: 19px;
+   font-family: none;
+
+ }
+
+ .d3 button a:hover {
+   color: orangered;
+ }
+
+ .d3 button {
+   background-color: white;
+   border: none;
+   border-bottom: 2px solid orangered;
+   margin: 0;
+   padding: 0;
+ }
+
+ .d3 h2 a {
+   text-decoration: none;
+   color: black;
+   font-size: 2.2vw;
+   font-weight: 500;
+ }
+
+ .d3 h2 a:hover {
+   text-decoration: none;
+   color: orangered;
+   font-size: 2.2vw;
+   font-weight: 500;
+ }
+
+
+ #part2 {
+   height: 62.81vh;
+   width: 90vw;
+   overflow: hidden;
+ }
+
+ /* d4 code  */
+ .d4 {
+   height: 42.07vh;
+   width: 25vw;
+   border: 1px solid #ddd;
+   padding: 20px;
+   margin: 10px;
+   margin-left: 40px;
+   border-radius: 10px;
+   background-color: white;
+   border: none;
+   display: inline;
+   float: left;
+ }
+
+ .d4 button {
+   background-color: white;
+   border: none;
+   border-bottom: 2px solid orangered;
+   margin: 0;
+   padding: 0;
+ }
+
+ .d4 button a {
+   text-decoration: none;
+   color: black;
+   font-size: 19px;
+   font-family: none;
+ }
+
+ .d4 button a:hover {
+   color: orangered;
+ }
+
+ .d4 h2 a:hover {
+   text-decoration: none;
+   color: orangered;
+   font-size: 2.2vw;
+   font-weight: 500;
+ }
+
+ .d4 h2 a {
+   text-decoration: none;
+   color: black;
+   font-size: 2.2vw;
+   font-weight: 500;
+ }
+
+
+ /* d5 code  */
+ .d5 {
+   height: 42.07vh;
+   width: 25vw;
+   border: 1px solid #ddd;
+   padding: 20px;
+   margin: 10px;
+   border-radius: 10px;
+   background-color: white;
+   border: none;
+   display: inline;
+   float: left;
+ }
+
+ .d5 button {
+   background-color: white;
+   border: none;
+   border-bottom: 2px solid orangered;
+   margin: 0;
+   padding: 0;
+ }
+
+ .d5 button a {
+   text-decoration: none;
+   color: black;
+   font-size: 19px;
+   font-family: none;
+ }
+
+ .d5 button a:hover {
+   color: orangered;
+ }
+
+ .d5 h2 a:hover {
+   text-decoration: none;
+   color: orangered;
+   font-size: 2.2vw;
+   font-weight: 500;
+ }
+
+ .d5 h2 a {
+   text-decoration: none;
+   color: black;
+   font-size: 2.2vw;
+   font-weight: 500;
+ }
+
+ /* d6 code  */
+ .d6 {
+   height: 42.07vh;
+   width: 25vw;
+   padding: 20px;
+   margin: 10px;
+   border-radius: 10px;
+   background-color: white;
+   border: none;
+   display: inline;
+   float: left;
+
+ }
+
+ .d6 button {
+   background-color: white;
+   border: none;
+   border-bottom: 2px solid orangered;
+ }
+
+ .d6 button a {
+   text-decoration: none;
+   color: black;
+   font-size: 19px;
+   font-family: none;
+   margin: 0;
+   padding: 0;
+ }
+
+ .d6 button a:hover {
+   color: orangered;
+ }
+
+ .d6 h2 a:hover {
+   text-decoration: none;
+   color: orangered;
+   font-size: 2.2vw;
+   font-weight: 500;
+ }
+
+ .d6 h2 a {
+   text-decoration: none;
+   color: black;
+   font-size: 2.2vw;
+   font-weight: 500;
+
+ }
+
+                                                      /*end third div coding css*/
+
+                                                      /*start fourth div coding css*/
+ .a4 {
+   height: 101.66vh;
+   width: 100vw;
+   
+ }
+/* part1 code  */
+ .e1 {
+   height: 74vh;
+   width: 39.17vw;
+   display: inline;
+   float: left;
+   margin-top: 100px;
+   margin-left: 45px;
+   overflow: hidden;
+   filter: brightness(70%);
+ }
+
+
+ /* part2 code  */
+ .e2 {
+   height: 74vh;
+   width: 50%;
+   display: inline;
+   float: left;
+   margin-top: 100px;
+   margin-left: 40px;
+ }
+
+ .e2 h5 {
+   margin-left: 40px;
+   font-weight: 100;
+   font-size: larger;
+   overflow: hidden;
+ }
+
+ .e2 h3 {
+   color: orangered;
+   margin: 0;
+   margin-left: 40px;
+   font-weight: 100;
+   margin-top: 45px;
+   overflow: hidden;
+ }
+
+ .e2 h1 {
+   font-size: 45px;
+   font-weight: 100;
+   margin: 0;
+   margin-left: 40px;
+   overflow: hidden;
+ }
+
+ .e2 p {
+   color: gray;
+   font-family: sans-serif;
+   margin-left: 40px;
+   font-size: larger;
+
+ }
+
+                                                       /*end fourth div coding css*/
+
+                                                       /*start fifth div coding css*/
+ .a5 {
+   height: 73.9vh;
+   width: 100vw;
+   filter: brightness(70%);
+ }
+.a5 img{
+  height: 73.9vh;
+  width: 100vw;
+
+}
+ 
+
+                                                       /*end fifth div coding css*/
+
+                                                       /*start sixth div coding css*/
+ .a6 {
+   height: 105vh;
+   width: 100vw;
+   background-color: ghostwhite;
+ }
+
+ .mv {
+   height: 95vh;
+   width: 77vw;
+   overflow: hidden;
+   
+ }
+/* g1 code  */
+ .g1 {
+   height: 60vh;
+   width: 25.62vw;
+   display: inline;
+   float: left;
+   background-color: white;
+   padding-top: 2.08vw ;
+   margin-top: 3.1vw ;
+ }
+
+ .g1 h5 {
+   font-weight: 200;
+ }
+
+ .g1 h2 {
+   font-weight: 200;
+   font-size: 2.2vw;
+   margin: 0;
+ }
+
+ .g1 h3 {
+   margin-top: 2vw ;
+   font-size: 1.3vw;
+   font-weight: 200;
+   color: dimgray;
+   font-family: sans-serif;
+ }
+
+ .g1 button {
+   margin-top: 20px;
+   color: white;
+   background-color: orangered;
+   border: none;
+   font-size: 1.3vw;
+   border-radius: 8px;
+   padding: 10px;
+   padding-left: 2.08vw ;
+   padding-right: 2.08vw ;
+ }
+
+ /* g2 code  */
+ .g2 {
+   height: 78.64vh;
+   width: 25.62vw;
+   display: inline;
+   float: left;
+   background-color: white;
+   z-index:3;
+ }
+
+ .g2 .exercise1 {
+   height: 38%;
+   width: 100%;
+   border: 1px solid #ddd;
+   background-color: orangered;
+ }
+
+ .g2 .exercise1 button {
+   border: white;
+   font-family: none;
+   border-radius: 5px;
+   color: orangered;
+   font-size: 15px;
+   margin-top: 25px;
+   font-weight: bold;
+   padding: 8px;
+   padding-left: 15px;
+   padding-right: 15px;
+ }
+
+ .g2 .exercise1 h2 {
+   font-weight: 200;
+   font-size: 2.2vw;
+   margin: 0;
+   margin-top: 25px;
+   color: white;
+ }
+
+ .g2 .exercise2 {
+   height: 62%;
+   width: 100%;
+ }
+
+ .g2 .exercise2 button {
+   margin-top: 20px;
+   color: white;
+   background-color: orangered;
+   border: none;
+   font-size: 1.3vw;
+   border-radius: 8px;
+   padding: 10px;
+   padding-left: 2.08vw ;
+   padding-right: 2.08vw ;
+ }
+
+ .g2 .exercise2 h3 {
+   margin-top: 2vw;
+   font-size: 1.3vw;
+   font-weight: 200;
+   color: dimgray;
+   font-family: sans-serif;
+ }
+
+/* g3 code  */
+ .g3 {
+   height: 60vh;
+   width: 25.62vw;
+   display: inline;
+   float: left;
+   background-color: white;
+   padding-top: 40px;
+   margin-top: 3.1vw;
+   z-index:1;
+
+ }
+
+ .g3 h3 {
+   margin-top: 2vw ;
+   font-size: 1.3vw ;
+   font-weight: 200;
+   color: dimgray;
+   font-family: sans-serif;
+
+ }
+
+ .g3 h5 {
+   font-weight: 200;
+ }
+
+ .g3 h2 {
+   font-weight: 200;
+   font-size: 2.2vw;
+   margin: 0;
+ }
+
+                                                       /* end sixth div codind css */
+
+                                                       /*start seventh div coding css*/
+ .a7{
+  height:35vh;
+  width:100vw;
+  background-color: black;
+  color:white;
+  display: flex;
+  justify-content:center;
+  padding-top:8vh;
+  gap: 5vw;
+ }
+ .a7 h3{
+  font-weight: 100;
+  margin: 0.52vw  0 2.2vw 0 ;
+ }
+ .a7 h5{
+  font-weight: 100;
+  font-size: 0.8vw;
+  margin:0;
+  margin-top:  1.573vw;
+  color:rgb(154, 159, 163);
+ }
+ 1.573vw 
+                                                       /* end seventh div codind css */
